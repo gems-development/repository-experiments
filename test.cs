@@ -1,11 +1,11 @@
 public class Student
 {
 	public string Name { get; }
-	public float Score { get; }
+	public double Score { get; }
 	
 	public Student() { Console.WriteLine("test"); }
 
-	public Student(string name, float score)
+	public Student(string name, double score)
 	{
 		Name = name;
 		Score = score;
