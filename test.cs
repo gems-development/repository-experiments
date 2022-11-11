@@ -3,7 +3,7 @@ public class Student
 	public string Name { get; }
 	public float Score { get; }
 	
-	public Student() { Console.WriteLine("test"); }
+	public Student() { Console.WriteLine("test test"); }
 
 	public Student(string name, float score)
 	{
