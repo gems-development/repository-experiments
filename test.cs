@@ -3,6 +3,8 @@ public class Student
 	public string Name { get; }
 	public float Score { get; }
 	
+	public Student() { }
+
 	public Student(string name, float score)
 	{
 		Name = name;
